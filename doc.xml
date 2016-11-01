@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cinema xmlns="http://www.example.org">
+    <actor>
+        <name>Leo</name>
+        <birthday>1974-11-11</birthday>
+        <num_films>678</num_films>
+        <salary>12</salary>
+    </actor>
+    actor>
+        <name>Kate</name>
+        <birthday>1974-11-11</birthday>
+        <num_films>678</num_films>
+        <salary>12</salary>
+    </actor>
+</cinema>

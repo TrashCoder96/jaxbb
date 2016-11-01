@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org"
+	xmlns:tns="http://www.example.org" elementFormDefault="qualified">
+	<element name="cinema">
+		<complexType>
+			<sequence>
+				<element name="actor" maxOccurs="unbounded">
+					<complexType>
+						<sequence>
+							<element name="name" type="string" />
+							<element name="birthday" type="date" />
+							<element name="num_films" type="int" />
+							<element name="salary" type="int" />
+						</sequence>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>
